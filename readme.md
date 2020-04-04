@@ -158,5 +158,18 @@ Hacemos referencia a algun tag del pasado y alli creamos un tag.
 **git show nombre-del-tag**
 Por ejemplo *git show v1.0.0* nos muestra detalles de ese tag.
 
+## Git Stash y Git Rebase
+### Stach 
 
+**git stage**
+Guarda el trabajo realizado hasta ese punto.
+Si damos *git status* nos lo muestra limpio y los cambios en lo habiamos estado trabajamdo se borran temporalmente. Si hacemos *git log --oneline --decorate --all --graph* nos mostrara en color rosa (refs/stash) WIP on master (Work in progress)
 
+**git stash list**
+Muestra todos los stash, se puede tener muchos stashes.
+
+**git stash pop**
+Recuperamos los cambios del stash. Y elimina este del stash.
+
+**git stash drop**
+Eliminamos el stash, suele quedarse alli cuando resolvemos conflictos al salvarlo.
