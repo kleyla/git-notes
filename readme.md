@@ -136,4 +136,27 @@ Ya ocupada la rama la debemos borrar para ello es -d de delete
 **git checkout -b nombre-de-la-rama**
 Otra forma de crear y cambiarnos a ella. Dos en uno.
 
+## Tags Etiquetas
+Son como versiones del proyecto. Los cuales pueden ser descargados y ver como estaba en ese momento.
+
+**git tag nombre-del-tag**
+Creacion de un tag
+
+**git tag**
+Muestra  todos los tags que tenemos.
+
+**git tag -d nombre-del-tag**
+Eliminamos el tag.
+
+**git tag -a v1.0.0 -m "Mensaje"**
+Creacion de un tag de forma completa. -a es el nombre del tag y-m el mensaje.
+
+**git tag -a v1.0.0 id -m "Mensaje"**
+id o hash por ejemplo *git tag -a v1.0.0 354d5fe -m "Mensaje"*
+Hacemos referencia a algun tag del pasado y alli creamos un tag.
+
+**git show nombre-del-tag**
+Por ejemplo *git show v1.0.0* nos muestra detalles de ese tag.
+
+
 
