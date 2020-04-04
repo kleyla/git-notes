@@ -173,3 +173,25 @@ Recuperamos los cambios del stash. Y elimina este del stash.
 
 **git stash drop**
 Eliminamos el stash, suele quedarse alli cuando resolvemos conflictos al salvarlo.
+
+## Github
+
+**git push origin master**
+Enviamos nuestras confirmaciones locales al remoto.
+
+**git push --tags**
+Los tags no se suben por defecto. Este es el comando que los sube.
+
+**git remote -v**
+Nos muestra el repositorio remoto en el que estamos.
+
+**git pull -u**
+Bajamos los cambios que otros han realizado.
+
+**git clone https://github.com/..**
+Clonamos el repositorio del enlace.
+
+**git fetch**
+Trae los cambios del repositorio remoto pero a otra rama.
+
+*git pull combina  git fetch+ git merge*
