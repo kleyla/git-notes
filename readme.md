@@ -114,9 +114,9 @@ Es una linea de tiempo de commits.
 
 **Merge**
 Uniones:
-    - Fast-forward
-    - Uniones automaticas
-    - Manual
+    * Fast-forward
+    * Uniones automaticas
+    * Manual
 
 **git branch nombre-de-la-rama**
 Creamos una nueva rama.
