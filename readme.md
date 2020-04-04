@@ -106,3 +106,34 @@ Renombrar un archivo. *git status -sb* muestra R en verde los que se han renombr
 **git rm archivo.tst**
 Elimina un archivo y podemos confirmarlo para saber en que momento eliminamos el archivo.
 
+**.gitignore**
+En este archivo se apunto todo lo que queremos que git ignore por ejemplo la carpeta node_modules.
+
+## Ramas
+Es una linea de tiempo de commits.
+
+**Merge**
+Uniones:
+    - Fast-forward
+    - Uniones automaticas
+    - Manual
+
+**git branch nombre-de-la-rama**
+Creamos una nueva rama.
+
+**git branch**
+Indica las ramas existentes y marca de verde la rama en la se esta trabajando.
+
+**git checkout nombre-de-la-rama**
+Cambiamos a esa rama. Nuestro HEAD apuntara a esta rama.
+
+**git merge nombre-de-la-rama**
+Juntamos esta rama a la de master, para ello necesitamos estar en la rama master.
+
+**git branch -d nombre-de-la-rama**
+Ya ocupada la rama la debemos borrar para ello es -d de delete
+
+**git checkout -b nombre-de-la-rama**
+Otra forma de crear y cambiarnos a ella. Dos en uno.
+
+
