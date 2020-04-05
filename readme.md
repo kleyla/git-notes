@@ -195,3 +195,6 @@ Clonamos el repositorio del enlace.
 Trae los cambios del repositorio remoto pero a otra rama.
 
 *git pull combina  git fetch+ git merge*
+
+### Issues
+los issues tiene un id unico por lo que un commit podria aher referencia a un issue en github para ello hecemos *git commit -m "Mensaje fixes #id"* por ejemplo *git commit -m "login responsivo fixes #5"*
